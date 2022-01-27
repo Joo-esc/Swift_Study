@@ -1,4 +1,4 @@
 ### Swift
 - <a>Class</a>
-- <a>Struct</a>
+- <a href="https://github.com/Joo-esc/Swift_Study/blob/main/Swift/Struct.md">Struct</a>
 - <a>Class & Struct</a>
