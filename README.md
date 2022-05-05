@@ -16,5 +16,5 @@
 
 ## CSS 
 - Box
-  - <a href="HTML/BoxModel & BoxSizing.md">BoxModel & BoxSizing</a>
-  - <a href="HTML/Block & InlineBlock & Inline.md">Block & InlineBlock & Inline</a>
+  - <a href="CSS/BoxModel & BoxSizing.md">BoxModel & BoxSizing</a>
+  - <a href="CSS/Block & InlineBlock & Inline.md">Block & InlineBlock & Inline</a>
