@@ -14,7 +14,12 @@
 - <a href="HTML/TextArea.md">TextArea</a>
 - <a href="HTML/Title & Link & Style & Script.md">Title & Link & Style & Script</a>
 
-## CSS 
+## CSS
 - Box
   - <a href="CSS/BoxModel & BoxSizing.md">BoxModel & BoxSizing</a>
   - <a href="CSS/Block & InlineBlock & Inline.md">Block & InlineBlock & Inline</a>
+- Float 
+  - <a href="CSS/Float.md">Float</a>
+  - <a href="CSS/Handling Float Problems.md">Handling Float Problems</a>
+- Position
+  - <a href="CSS/Position.md">Position</a>
