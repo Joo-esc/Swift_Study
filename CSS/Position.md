@@ -242,8 +242,216 @@ HTML
 
 ```
 CSS
-```css```
+```css
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Spoqa Han Sans", sans-serif;
+}
 
+html {
+  font-size: 16px;
+  font-family: "Spoqa Han Sans", sans-serif;
+  letter-spacing: -0.03em;
+  color: #212529;
+}
+
+body {
+  margin: 200px;
+  background-color: gainsboro;
+}
+
+#prev {
+  height: 28px;
+  width: 28px;
+  background: url(/images/icon-backward.svg);
+  float: left;
+}
+
+#next {
+  height: 28px;
+  width: 28px;
+  background: url(/images/icon-forward.svg);
+  float: right;
+}
+
+.card {
+  height: 354px;
+  width: 400px;
+  position: relative;
+  background-color: white;
+}
+
+.card-image {
+  position: relative;
+  height: 240px;
+  width: 100%;
+}
+
+.card-image img {
+  width: 100%;
+  height: 240px;
+  display: block;
+}
+
+.card-button-wrapper {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  position: absolute;
+}
+
+.card-image button {
+  border: none;
+  color: blue;
+  display: flex;
+  float: right;
+}
+
+.card-content {
+  padding: 12px 16px;
+}
+
+.card-content span {
+  display: block;
+}
+
+.card-content .title {
+  font-size: 20px;
+  line-height: 32px;
+}
+.card-content span:nth-child(2) {
+  font-size: 16px;
+  color: darkslategrey;
+}
+
+.card-content strong {
+  position: absolute;
+  display: flex;
+  right: 16px;
+  bottom: 12px;
+}
+
+.card-content .price {
+  font-size: 20px;
+  color: #2860e1;
+}
+
+.card-content .price span {
+  font-size: 12px;
+  color: darkslategrey;
+  margin: auto 4px auto 0px;
+}
+```
+
+--- 
+## 3
+<img width="1020" alt="subscription" src="https://user-images.githubusercontent.com/75591730/167053936-f7f7a74e-f8b3-4319-8ef7-c9d4c97399fc.png">
+
+HTML
+```html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="modal">
+      <button id="modal-cancel-btn" type="button"></button>
+      <h2 class="title">Manage Subscriptions</h1>
+      <p class="description">You can follow the discussion on @SimYa without to leave a comment. Cool, huh?</br> 
+      Just enter your email address in the form here below and you are all set.
+      </p>
+      <form>
+        <input id="modal-email-field" type="email" placeholder="Your e-mail">
+        <button id="modal-email-btn" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </body>
+</html>
+```
+
+CSS 
+```css
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Spoqa Han Sans", sans-serif;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Spoqa Han Sans", sans-serif;
+  letter-spacing: -0.03em;
+  color: #212529;
+}
+
+body {
+  margin-top: 40px;
+  background-color: gainsboro;
+}
+
+.modal {
+  height: 216px;
+  width: 671px;
+  padding: 32px 40px;
+  border-radius: 4px;
+  background-color: white;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+#modal-cancel-btn {
+  height: 20px;
+  width: 20px;
+  background: url(/images/icon-close.svg) no-repeat;
+  border: none;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.modal .title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  color: #1f2d3d;
+}
+
+.modal .description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #273444;
+  margin-bottom: 20px;
+}
+
+#modal-email-field {
+  background-color: #f6f8fa;
+  border: none;
+  height: 36px;
+  width: 200px;
+  border-radius: 4px;
+  padding-left: 16px;
+}
+
+#modal-email-btn {
+  background-color: #2860e1;
+  border: none;
+  border-radius: 4px;
+  height: 36px;
+  width: 90px;
+  color: white;
+}
+
+```
 
 
 
