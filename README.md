@@ -1,6 +1,7 @@
 ## HTML 
-- ### Rules 
+- ### Details 
   - <a>Naming Conventions in HTML </a>
+  - <a>The Importance of Bold and Strong Tags in SEO</a>
 
 - ### Element
   - <a href="HTML/Heading & Paragraph.md">Heading & Paragraph</a>
@@ -19,12 +20,17 @@
   - <a href="HTML/Title & Link & Style & Script.md">Title & Link & Style & Script</a>
 
 ## CSS
+- ### Details
+  - <a>Difference between background and background-color<a/>
+
 - ### Attributes 
   - Box
-    - <a href="CSS/BoxModel & BoxSizing.md">BoxModel & BoxSizing</a>
+    - <a href="CSS/Box*M*odel & BoxSizing.md">BoxModel & BoxSizing</a>
     - <a href="CSS/Block & InlineBlock & Inline.md">Block & InlineBlock & Inline</a>
   - Float 
     - <a href="CSS/Float.md">Float</a>
     - <a href="CSS/Handling Float Problems.md">Handling Float Problems</a>
   - Position
     - <a href="CSS/Position.md">Position</a>
+  - FlexBox 
+    - <a href="CSS/FlexBox.md">FlexBox</a>
