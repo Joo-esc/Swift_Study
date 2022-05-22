@@ -1,7 +1,19 @@
+## Core Javascript
+  - ### Detail
+    - <a href="JS/QuerySelctor By DataAttribue.md">Use Data Attribute rather than CSS Selector in Javascript </a>
+    - Proper way to select element in Vanila Javascript
+  
+  - ### Basic
+    - DataType (데이터 타입)
+    - Function(함수)
+    
+  
+
 ## HTML 
 - ### Details 
   - <a>Naming Conventions in HTML </a>
   - <a>The Importance of Bold and Strong Tags in SEO</a>
+  - <a> Figure </a>
 
 - ### Element
   - <a href="HTML/Heading & Paragraph.md">Heading & Paragraph</a>
@@ -22,7 +34,7 @@
 ## CSS
 - ### Details
   - <a>Difference between background and background-color<a/>
-
+  - All About Css Class 
 - ### Attributes 
   - Box
     - <a href="CSS/Box*M*odel & BoxSizing.md">BoxModel & BoxSizing</a>
@@ -35,4 +47,5 @@
   - FlexBox 
     - <a href="CSS/FlexBox.md">FlexBox</a>
   - <a href="CSS/Media Query.md">Media Query</a>
+  - CSS Unit 
   
